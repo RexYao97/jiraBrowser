@@ -6,8 +6,17 @@
 
 <script lang="ts" setup>
 import {ref} from 'vue';
-
+import chrome from './chrome';
+const tokenKey = 'token';
 const token = ref('')
+
+const data = chrome.storage.local.get(tokenKey)
+if(!!data){
+  // token.value = data;
+}
+
+
+
 </script>
 
 <style>

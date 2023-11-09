@@ -21,5 +21,8 @@
     "32": "./64jira.png",
     "48": "./64jira.png",
     "128": "./64jira.png"
-  }
+  },
+  "permissions": [
+    "storage"
+  ]
 }
